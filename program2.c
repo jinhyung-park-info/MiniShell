@@ -29,7 +29,8 @@ int main(int argc, char *argv[]) {
     int length = atoi(N_buffer);
 
     int numbers_array_id, process_tracker_id;
-    key_t array_key, process_tracker_key = IPC_PRIVATE;
+    key_t array_key = IPC_PRIVATE;
+    key_t process_tracker_key = IPC_PRIVATE;
     int *numbers_array, *process_tracker;
 
     size_t ARRAY_SHM_SIZE = sizeof(int) * length;

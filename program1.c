@@ -86,7 +86,6 @@ void merge(int arr[], int left, int right1, int right2) {
     }
     
     // 3. Update the sorted array to global array
-    int arr_count = left;
     for (int i = 0; i < length; i++) {
         arr[left] = tmp_sorted[i];
         left++;

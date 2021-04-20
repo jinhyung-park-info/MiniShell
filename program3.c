@@ -148,6 +148,8 @@ void* mergesort(void *a) {
 	    pthread_exit(NULL);
 
 	}
+
+    return NULL;
 }
 
 void merge(int left, int right2) {
