@@ -1,26 +1,23 @@
 CFLAGS = -g -Wall
 DEPS = miniShell.h parser.h execute.h
 
-all: miniShell program1 program2 program3
+all: miniShell merge_sort_serial merge_sort_multiprocess merge_sort_multithread
 
 miniShell: miniShell.o parser.o execute.o
 	gcc  $(CFLAGS) -o miniShell miniShell.o parser.o execute.o
 
-program1: program1.o
-	gcc  $(CFLAGS) -o program1 program1.o
+merge_sort_serial: merge_sort_serial.o
+	gcc  $(CFLAGS) -o merge_sort_serial merge_sort_serial.o
 
-program2: program2.o
-	gcc  $(CFLAGS) -o program2 program2.o
+merge_sort_multiprocess: merge_sort_multiprocess.o
+	gcc  $(CFLAGS) -o merge_sort_multiprocess merge_sort_multiprocess.o
 
-program3: program3.o
-	gcc  $(CFLAGS) -pthread -o program3 program3.o
+merge_sort_multithread: merge_sort_multithread.o
+	gcc  $(CFLAGS) -pthread -o merge_sort_multithread merge_sort_multithread.o
 
 
 %.o: %.c $(DEPS)
 	gcc  $(CFLAGS) -c -o $@ $< 
 
 clean:
-	rm -f miniShell *.o
-	rm -f program1 *.o
-	rm -f program2 *.o
-	rm -f program3 *.o
+	rm -f miniShell merge_sort_serial merge_sort_multiprocess merge_sort_multithread *.o
