@@ -2,10 +2,17 @@
 
 **By <a href="http://github.com/jinhyung426/" target="_blank">Jinhyung Park</a> from Yonsei University (Seoul, Korea)**
 
+<p align="center">
+  <img width="912" height="441" src="https://github.com/jinhyung426/MiniShell/blob/master/utils/teaser1.png">
+</p>
+<br/>
+<p align="center">
+  <img width="912" height="440" src="https://github.com/jinhyung426/MiniShell/blob/master/utils/teaser2.png">
+</p>
+
 ## Intro
 This program implements a mini Shell.</br>
 The minishell supports basic Unix commands and standard Unix program execution.</br>
-
 
 ## Functions
 The commands/programs that are executable in the minishell are as follows (but not limited to):
