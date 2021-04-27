@@ -11,8 +11,7 @@
 </p>
 
 ## Intro
-This program implements a mini Shell.</br>
-The minishell supports basic Unix commands and standard Unix program execution.</br>
+This program implements a mini Shell that supports basic Unix commands and standard Unix program execution.</br>
 
 ## Functions
 The commands/programs that are executable in the minishell are as follows (but not limited to):
@@ -27,7 +26,7 @@ The commands/programs that are executable in the minishell are as follows (but n
     make
     ./miniShell
 
-## How To Execue Sample Program
+## How To Execute a Sample Program in my MiniShell
     make
     ./miniShell
     ./merge_sort_serial < input_1M.txt > output_1M_serial.txt
@@ -41,7 +40,7 @@ The output file contains the number in descending order, followed by the time (i
 ## Citation
 If you find my work useful in your research/project, please consider citing:
 
-    @project{jinhyungpark2021minishell,
+    @project{JinhyungPark2021MiniShell,
       title={MiniShell},
       author={Jinhyung Park},
       year={2021}
