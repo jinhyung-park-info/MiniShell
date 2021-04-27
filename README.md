@@ -3,11 +3,11 @@
 **By <a href="http://github.com/jinhyung426/" target="_blank">Jinhyung Park</a> from Yonsei University (Seoul, Korea)**
 
 <p align="center">
-  <img width="912" height="441" src="https://github.com/jinhyung426/MiniShell/blob/master/utils/teaser1.png">
+  <img width="800" height="250" src="https://github.com/jinhyung426/MiniShell/blob/main/utils/teaser1.png">
 </p>
 <br/>
 <p align="center">
-  <img width="912" height="440" src="https://github.com/jinhyung426/MiniShell/blob/master/utils/teaser2.png">
+  <img width="760" height="260" src="https://github.com/jinhyung426/MiniShell/blob/main/utils/teaser2.png">
 </p>
 
 ## Intro
